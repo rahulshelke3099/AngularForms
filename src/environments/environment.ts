@@ -2,10 +2,17 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = {
-  production: false
-};
 
+const domain= "dev-dxdkvfmv.us.auth0.com";
+const clientId= "V9MdaZJ8VcV5ktEUx3iMrij0c459FoPL"
+export const environment = {
+  production: false,
+  auth: {
+    domain,
+    clientId,
+    redirectUri: window.location.origin,
+  },
+};
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.

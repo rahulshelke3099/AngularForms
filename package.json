@@ -19,8 +19,14 @@
     "@angular/platform-browser": "~9.0.7",
     "@angular/platform-browser-dynamic": "~9.0.7",
     "@angular/router": "~9.0.7",
+    "@auth0/auth0-angular": "^1.1.0",
+    "@ng-select/ng-select": "^5.0.8",
+    "angular-jwt": "^0.1.11",
+    "auth0-lock": "^11.27.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
+    "xlsx": "^0.16.8",
+    "xlsx-style": "^0.8.13",
     "zone.js": "~0.10.2"
   },
   "devDependencies": {
